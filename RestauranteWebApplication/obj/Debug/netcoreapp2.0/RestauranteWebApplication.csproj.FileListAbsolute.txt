@@ -1,0 +1,11 @@
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\bin\Debug\netcoreapp2.0\RestauranteWebApplication.deps.json
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\bin\Debug\netcoreapp2.0\RestauranteWebApplication.runtimeconfig.json
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\bin\Debug\netcoreapp2.0\RestauranteWebApplication.runtimeconfig.dev.json
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\bin\Debug\netcoreapp2.0\RestauranteWebApplication.dll
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\obj\Debug\netcoreapp2.0\RestauranteWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\obj\Debug\netcoreapp2.0\RestauranteWebApplication.AssemblyInfoInputs.cache
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\obj\Debug\netcoreapp2.0\RestauranteWebApplication.AssemblyInfo.cs
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\bin\Debug\netcoreapp2.0\RestauranteWebApplication.pdb
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\obj\Debug\netcoreapp2.0\RestauranteWebApplication.dll
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\obj\Debug\netcoreapp2.0\RestauranteWebApplication.pdb
+C:\Users\Jean\Documents\WorkSpace\RestauranteWebApplication\RestauranteWebApplication\obj\Debug\netcoreapp2.0\RestauranteWebApplication.csprojResolveAssemblyReference.cache
