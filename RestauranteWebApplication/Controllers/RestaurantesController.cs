@@ -28,6 +28,27 @@ namespace RestauranteWebApplication.Controllers
             return _context.Restarantes;
         }
 
+
+        [HttpGet("GetRestarantesLike/{nome}")]
+        public IEnumerable<Restaurante> GetRestarantesLike(string nome)
+        {
+
+            try
+            {
+                var query = _context.Restarantes.FromSql("select * from Restaurante where Descricao like '%"+ nome + "%'");
+                return query;
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+          
+        }
+
+
+
         // GET: api/Restaurantes/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetRestaurante([FromRoute] int id)
@@ -117,6 +138,8 @@ namespace RestauranteWebApplication.Controllers
 
             return Ok(restaurante);
         }
+
+        
 
         private bool RestauranteExists(int id)
         {

@@ -87,14 +87,25 @@ namespace RestauranteWebApplication.Controllers
         [HttpPost]
         public async Task<IActionResult> PostPrato([FromBody] Prato prato)
         {
+            try
+            {
+
+         
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
+
             _context.Pratos.Add(prato);
             await _context.SaveChangesAsync();
 
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
             return CreatedAtAction("GetPrato", new { id = prato.ID }, prato);
         }
 

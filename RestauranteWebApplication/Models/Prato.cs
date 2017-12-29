@@ -7,8 +7,12 @@ namespace RestauranteWebApplication.Models
 {
     public class Prato
     {
+
         public int ID { get; set; }
         public string Descricao { get; set; }
         public float Preco { get; set; }
+        public Restaurante Restaurante { get; set; }
+        public int RestauranteId { get; set; }
+
     }
 }
